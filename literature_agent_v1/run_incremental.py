@@ -105,6 +105,8 @@ def main():
             candidates.extend(crossref_search(q, from_date=last_run_date, rows=20))
 
     new_candidates = len(candidates)
+    print("DEBUG candidates:", new_candidates)
+
     accepted, review_rows = [], []
 
     for it in candidates:
@@ -189,6 +191,7 @@ def main():
         rev=len(review_rows),
         notes="Deterministic V1 run"
     )
+    print("DEBUG accepted:", len(accepted), "review:", len(review_rows))
 
     # update checkpoint
     write_last_run_date(dt.date.today().isoformat())
