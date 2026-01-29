@@ -39,7 +39,7 @@ jobs:
           git config user.email "ikd-bot@users.noreply.github.com"
 
           if [[ -n "$(git status --porcelain)" ]]; then
-            git add IKD_GaN_CMOS literature_agent_v1/state/last_run_timestamp.txt
+            git add 00_taxonomy 01_literature 02_reports 03_queries literature_agent_v1/state/last_run_timestamp.txt
             git commit -m "IKD update: GaN CMOS $(date -u +'%Y-%m-%dT%H:%MZ')"
             git push
           else
