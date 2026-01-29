@@ -45,3 +45,15 @@ jobs:
           else
             echo "No changes to commit."
           fi
+      - name: Debug list repo files
+        run: |
+          pwd
+          ls -la
+          echo "---- 00_taxonomy ----"
+          ls -la 00_taxonomy || true
+          echo "---- 01_literature ----"
+          ls -la 01_literature || true
+          echo "---- literature_agent_v1 ----"
+          ls -la literature_agent_v1 || true
+          echo "---- state ----"
+          ls -la literature_agent_v1/state || true
