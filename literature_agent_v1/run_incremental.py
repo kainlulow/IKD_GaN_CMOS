@@ -5,7 +5,7 @@ import pandas as pd
 import yaml
 from rapidfuzz import fuzz
 
-IKD_BASE = "IKD_GaN_CMOS"
+IKD_BASE = "."
 MASTER_XLSX = f"{IKD_BASE}/01_literature/IKD_Literature_Master.xlsx"
 REVIEW_XLSX = f"{IKD_BASE}/01_literature/IKD_ReviewQueue.xlsx"
 RUNLOG_CSV  = f"{IKD_BASE}/01_literature/IKD_RunLog.csv"
