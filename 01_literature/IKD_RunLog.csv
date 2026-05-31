@@ -123,3 +123,4 @@ RunDateTime,TimeWindow,SourcesQueried,NewCandidates,NewAccepted,NewReviewQueue,N
 2026-05-28 00:02,since 2026-05-27,Crossref API (metadata),400,0,384,Deterministic V1 run
 2026-05-29 00:14,since 2026-05-28,Crossref API (metadata),400,2,381,Deterministic V1 run
 2026-05-30 00:11,since 2026-05-29,Crossref API (metadata),400,6,377,Deterministic V1 run
+2026-05-31 00:04,since 2026-05-30,Crossref API (metadata),400,0,383,Deterministic V1 run
